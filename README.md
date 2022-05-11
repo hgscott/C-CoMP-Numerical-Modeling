@@ -17,10 +17,13 @@ To activate the environment, use
 
 ```conda activate ccomp-cobrapy```
 
-If there is a package that needs to be added to the conda enviornment, install that package while the environment is activated and create a new `environment.yml` file with
+If there is a package that needs to be added to the conda enviornment, install
+that package while the environment is activated and create a new
+`environment.yml` file with
 
 ```conda env export > environment.yml```
 
-You can then push your branch and open a merge request so that all other users have your updated package information.
+You can then push your branch and open a merge request so that all other users
+have your updated package information.
 
 
